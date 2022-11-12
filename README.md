@@ -8,10 +8,10 @@
 {
 	"intervalTime": 60, //更新间隔，建议300s
 	"Email": "Example@outlook.com",// CF邮箱
-	"APIKey": "CLOUDFLARE_API_KEY",// 通用密钥，不知道的百度
+	"APIKey": "CLOUDFLARE_API_KEY",// 密钥，不知道的百度
 	"Zones": [//这是个数组，可以匹配多个
 		{
-			"Name": "example.com",//区域名（域名）
+			"Name": "example.com",//域名
 			"Records": [//这是个数组，可以匹配多个
 				{
 					"Name": "home.example.com"//需要动态更新公网IP进行更新的dns记录，支持V4,V6
